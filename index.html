@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="styles.css" rel="stylesheet">
-    <script defer src="Script.js"></script>
-    <!-- links above -->
-    <title>quiz</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
     <div class="container">
-        <div id="question-container" class="escondido"></div>
-        <div id="question">Question</div>
-        <div id="answer-buttons" class="btn-grid">
-        <button class="btn">answer 1</button>
-        <button class="btn">answer 2</button>
-        <button class="btn">answer 3</button>
-        <button class="btn">answer 4</button>
-        <div class="controls">
-                <button id="start-btn" class="start-btn btn">start</button>
-                <button id="next-btn" class="next-btn btn hide">next</button>
-            </div>
-        </div>
-        </div>
-        
-    </div>
+      <h1>JavaScript Quiz</h1>
+      <!-- start page -->
+      <div class="row" id="start">
+        <button class="start-quiz">Start Quiz</button>
+        <button class="highscores">Highscores</button>
+      </div>
+      <!-- questions -->
+      <div class="row" id="questions">
+        <button class="answerSelection" class="btn-grid">Answer 1</button>
+        <button class="answerSelection" class="btn-grid">Answer 2</button>
+        <button class="answerSelection" class="btn-grid">Answer 3</button>
+        <button class="answerSelection" class="btn-grid">Answer 4</button>
+      </div>
+      <!-- results -->
+      <div class="row border" id="results">
+          <div class="col">
+
+          </div>
+      </div>
+      <!-- results -->
+      <div class="row" id="highscores"></div>
     
-</body>
+    </div>
+  </body>
 </html>
