@@ -1,27 +1,27 @@
 var myQuestions = [
     {
-      title: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
+      question: "Commonly used data types DO NOT include:",
+      answers: ["strings", "booleans", "alerts", "numbers"],
       answer: "alerts"
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
+      question: "The condition in an if / else statement is enclosed within ____.",
+      answers: ["quotes", "curly brackets", "parentheses", "square brackets"],
       answer: "parentheses"
-    },
+
     {
-      title: "In HTML, JavaScript code must be inserted between ______ and____ tags.",
-      choices: ["<p>", "<iframe>", "<script>", "<div>"],
+      question: "In HTML, JavaScript code must be inserted between ______ and____ tags.",
+      answers: ["<p>", "<iframe>", "<script>", "<div>"],
       answer: "<script>"
     },
     {
-      title: "A JavaScript function is a block of JavaScript code, that can be executed when___for",
-      choices: ["called", "looked for", "replaced", "givin"],
+      question: "A JavaScript function is a block of JavaScript code, that can be executed when___for",
+      answers: ["called", "looked for", "replaced", "givin"],
       answer: "called"
     },
     {
-      title: "Writing into the browser console, using_____.",
-      choices: ["window.alert()", "console.log()", "document.write()", "innerHTML"],
+      question: "Writing into the browser console, using_____.",
+      answers: ["window.alert()", "console.log()", "document.write()", "innerHTML"],
       answer: "console.log()"
     },
   ];
