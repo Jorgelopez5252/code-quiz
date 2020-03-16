@@ -3,7 +3,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+:root {
+    --hue-neutral: 200;
+    --hue-wrong:0;
+    --hue-correct:145;
+}
+
 body {
+    --hue: var(--hue-neutral);
     padding:0;
     margin:0;
     display: flex;
@@ -11,4 +18,13 @@ body {
     height:100vh;
     justify-content: center;
     align-items: center;
+    background-color: hsl(var(--hue),100%, 20%);
+}
+
+body.correct {
+    --hue: var(--hue-correct);
+}
+
+body.wrong {
+    --hue: var(--hue-wrong);
 }
